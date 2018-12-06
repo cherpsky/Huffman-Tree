@@ -154,8 +154,8 @@ void drawTree(Node parent) {
   if (parent.isLeaf()) {
     parent.left.x = parent.x-50;
     parent.left.y = parent.y+30;    
-    parent.right.x = parent.x+50;
-    parent.right.y = parent.y+30;
+    parent.right.x = parent.x+30;
+    parent.right.y = parent.y+50;
     parent.left.draw();
     parent.right.draw();
 
